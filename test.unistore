@@ -1,22 +1,22 @@
 {
     "storeInfo": {
-        "title": "Max's Injects DB",
-        "author": "Max904yt on Reddit",
+        "title": "Universal-DB",
+        "author": "Universal-Team",
         "description": "Universal-DB - An online database of 3DS and DS homebrew",
-        "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
-        "file": "test.unistore",
-        "sheetURL": "",
-        "sheet": "",
+        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "file": "universal-db-beta.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "universal-db.t3x",
         "bg_index": 1,
-        "bg_sheet": 1,
-        "revision": 1,
+        "bg_sheet": 0,
+        "revision": 91,
         "version": 3
     },
     "storeContent": [
         {
             "info": {
-                "title": "Sonic Battle",
-                "author": "THQ",
+                "title": "Universal-Updater",
+                "author": "Universal-Team",
                 "description": "An easy to use app for installing and updating 3DS homebrew",
                 "category": ["utility"],
                 "console": ["3DS"],
@@ -26,11 +26,11 @@
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "Sonic Battle.cia": [
+            "Universal-Updater.3dsx": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic%20Battle.cia",
-                    "output": "cias/Sonic Battle.cia"
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
                 }
             ],
             "Universal-Updater.cia": [
