@@ -15,8 +15,8 @@
     "storeContent": [
         {
             "info": {
-                "title": "Universal-Updater",
-                "author": "Universal-Team",
+                "title": "Sonic Battle",
+                "author": "THQ",
                 "description": "An easy to use app for installing and updating 3DS homebrew",
                 "category": ["utility"],
                 "console": ["3DS"],
