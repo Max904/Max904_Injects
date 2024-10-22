@@ -1,0 +1,112 @@
+{
+    "storeInfo": {
+        "title": "Max's Injects DB",
+        "author": "Max904yt on Reddit",
+        "description": "Universal-DB - An online database of 3DS and DS homebrew",
+        "url": "",
+        "file": "test.unistore",
+        "sheetURL": "",
+        "sheet": "",
+        "bg_index": 0,
+        "bg_sheet": 0,
+        "revision": 0,
+        "version": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Sonic Battle",
+                "author": "THQ",
+                "description": "An easy to use app for installing and updating 3DS homebrew",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v2.5.1"
+            },
+            "Sonic Battle.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic%20Battle.cia",
+                    "output": "cias/Sonic Battle.cia"
+                }
+            ],
+            "Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ],
+            "[nightly] Universal-Updater.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
+                    "message": "Downloading Universal-Updater.3dsx...",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
+                }
+            ],
+            "[nightly] Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ]
+        },
+        {
+            "info": {
+                "title": "Homebrew Launcher",
+                "author": "Smealum",
+                "description": "A simple homebrew launcher for the Nintendo 3DS",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 1,
+                "sheet_index": 1,
+                "last_updated": "2020-06-15 at 18:00 (UTC)",
+                "license": "gpl-2.0",
+                "version": "v2.1.0"
+            },
+            "Homebrew-Launcher.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/smealum/3ds_hb_menu/releases/download/v2.1.0/Homebrew-Launcher.3dsx",
+                    "output": "%3DSX%/Homebrew-Launcher.3dsx"
+                }
+            ],
+            "Homebrew-Launcher.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/smealum/3ds_hb_menu/releases/download/v2.1.0/Homebrew-Launcher.cia",
+                    "output": "sdmc:/Homebrew-Launcher.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Homebrew-Launcher.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Homebrew-Launcher.cia"
+                }
+            ]
+        }
+    ]
+}
