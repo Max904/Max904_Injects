@@ -7,9 +7,9 @@
         "file": "test.unistore",
         "sheetURL": "",
         "sheet": "",
-        "bg_index": 0,
-        "bg_sheet": 0,
-        "revision": 0,
+        "bg_index": 1,
+        "bg_sheet": 1,
+        "revision": 1,
         "version": 3
     },
     "storeContent": [
