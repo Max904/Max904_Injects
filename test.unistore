@@ -30,7 +30,7 @@
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic%20Battle.cia",
-                    "output": "cias/Sonic%20Battle.cia"
+                    "output": "cias/Sonic-Battle.cia"
                 }
             ],
             "Universal-Updater.cia": [
