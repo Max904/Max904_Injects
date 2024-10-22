@@ -3,7 +3,7 @@
         "title": "Universal-DB",
         "author": "Universal-Team",
         "description": "Universal-DB - An online database of 3DS and DS homebrew",
-        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
         "file": "universal-db-beta.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
