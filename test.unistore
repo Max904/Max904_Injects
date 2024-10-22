@@ -1,10 +1,10 @@
 {
     "storeInfo": {
-        "title": "Universal-DB",
-        "author": "Universal-Team",
-        "description": "Universal-DB - An online database of 3DS and DS homebrew",
+        "title": "Max90yt-Injects-DB",
+        "author": "Max90yt on Reddit",
+        "description": "An unistore for Maxx904yt´s injects",
         "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
-        "file": "universal-db-beta.unistore",
+        "file": "test.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
         "bg_index": 1,
