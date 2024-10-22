@@ -5,11 +5,11 @@
         "description": "An unistore for Maxx904yt´s injects",
         "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
         "file": "test.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "universal-db.t3x",
+        "sheetURL": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/test.t3x",
+        "sheet": "test.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 91,
+        "revision": 1,
         "version": 3
     },
     "storeContent": [
