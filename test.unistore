@@ -26,11 +26,11 @@
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "Universal-Updater.3dsx": [
+            "Sonic Battle.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
-                    "output": "%3DSX%/Universal-Updater.3dsx"
+                    "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic%20Battle.cia",
+                    "output": "cias/Sonic%20Battle.cia"
                 }
             ],
             "Universal-Updater.cia": [
