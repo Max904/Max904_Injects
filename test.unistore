@@ -29,7 +29,7 @@
             "Sonic Battle.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic%20Battle.cia",
+                    "file": "https://github.com/Max904/Maxtesting/raw/refs/heads/main/Sonic-Battle.cia",
                     "output": "cias/Sonic-Battle.cia"
                 }
             ],
