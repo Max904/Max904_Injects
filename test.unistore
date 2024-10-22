@@ -3,14 +3,14 @@
         "title": "Max's Injects DB",
         "author": "Max904yt on Reddit",
         "description": "Universal-DB - An online database of 3DS and DS homebrew",
-        "url": "",
+        "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
         "file": "test.unistore",
         "sheetURL": "",
         "sheet": "",
         "bg_index": 0,
         "bg_sheet": 0,
         "revision": 0,
-        "version": 1
+        "version": 3
     },
     "storeContent": [
         {
