@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":6,
+		"revision":7,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -106,18 +106,6 @@
 			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
 		}
 	},
-	{
-		"Download LM2DLPAL": [{
-			"file": "https://github.com/LinUwUxCat/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
-			"message":"Downloading the app...",
-			"output": "sdmc:/LM2DLPAL.cia",
-			"type": "downloadFile"
-		},
-		{
-			"file": "/LM2DLPAL.cia",
-			"message": "Installing LM2DLPAL.cia...",
-			"type": "installCia"
-		},
 		{
 			"file": "sdmc:/LM2DLPAL.cia",
 		  	"message": "Deleting LM2DLPAL.cia.",
