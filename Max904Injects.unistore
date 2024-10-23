@@ -17,7 +17,7 @@
             "info": {
                 "title": "Sonic Battle",
                 "author": "THQ",
-                "description": "An easy to use app for installing and updating 3DS homebrew",
+                "description": "Sonic Battle is a 4 player isometric fighting game based on the Sonic Adventure era characters, differing heavily from Sonic the Fighters, the first Sonic fighting game. It had a single player story mode which received a great deal of praise from fans; not taking itself too seriously, while at the same time doing a lot to flesh out characters' personalities. ",
                 "category": ["GBA"],
                 "console": ["3DS"],
                 "icon_index": 0,
@@ -34,7 +34,7 @@
                 },
                 {
                     "type": "installCia",
-                    "file": "/Sonic Battle.cia"
+                    "file": "sdmc:/Sonic Battle.cia"
                 },
                 {
                     "type": "deleteFile",
@@ -44,8 +44,8 @@
         },
         {
             "info": {
-                "title": "Homebrew App Example",
-                "author": "Homebrew Dev",
+                "title": "Mega Man 2",
+                "author": "Capcom",
                 "description": "A sample homebrew application for the 3DS",
                 "category": ["game"],
                 "console": ["3DS"],
@@ -59,7 +59,7 @@
                 {
                     "type": "downloadFile",
                     "file": "https://example.com/homebrew-app/Homebrew-App.3dsx",
-                    "output": "%3DSX%/Homebrew-App.3dsx"
+                    "output": "/3ds/Homebrew-App.3dsx"
                 }
             ],
             "Homebrew-App.cia": [
@@ -70,7 +70,7 @@
                 },
                 {
                     "type": "installCia",
-                    "file": "/Homebrew-App.cia"
+                    "file": "sdmc:/Homebrew-App.cia"
                 },
                 {
                     "type": "deleteFile",
