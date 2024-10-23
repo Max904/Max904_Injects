@@ -15,7 +15,7 @@
     "storeContent": [
         {
             "info": {
-                "title": "Universal-Updater",
+                "title": "Sonic Battle",
                 "author": "Universal-Team",
                 "description": "An easy to use app for installing and updating 3DS homebrew",
                 "category": ["utility"],
@@ -36,7 +36,7 @@
             "Universal-Updater.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
                     "output": "sdmc:/Universal-Updater.cia"
                 },
                 {
