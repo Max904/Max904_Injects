@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":5,
+		"revision":6,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -66,7 +66,7 @@
 		"Drill Dozer.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Drill%20Dozer/Drill%20Dozer.cia",
                     "output": "sdmc:/Drill Dozer.cia"
                 },
                 {
