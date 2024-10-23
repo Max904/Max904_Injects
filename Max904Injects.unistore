@@ -26,40 +26,10 @@
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "Universal-Updater.3dsx": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
-                    "output": "%3DSX%/Universal-Updater.3dsx"
-                }
-            ],
-            "Universal-Updater.cia": [
+            "Sonic Battle.cia": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
-                    "output": "sdmc:/Universal-Updater.cia"
-                },
-                {
-                    "type": "installCia",
-                    "file": "/Universal-Updater.cia"
-                },
-                {
-                    "type": "deleteFile",
-                    "file": "sdmc:/Universal-Updater.cia"
-                }
-            ],
-            "[nightly] Universal-Updater.3dsx": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
-                    "message": "Downloading Universal-Updater.3dsx...",
-                    "output": "%3DSX%/Universal-Updater.3dsx"
-                }
-            ],
-            "[nightly] Universal-Updater.cia": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
                     "output": "sdmc:/Universal-Updater.cia"
                 },
                 {
