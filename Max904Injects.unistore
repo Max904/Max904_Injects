@@ -93,7 +93,7 @@
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Advance%203/Sonic%20Advance%203.cia",
-                    "output": "sdmc:/Drill Dozer.cia"
+                    "output": "sdmc:/Sonic Advance 3.cia"
                 },
                 {
                     "type": "installCia",
