@@ -3,8 +3,8 @@
         "title": "Universal-DB",
         "author": "Universal-Team",
         "description": "Universal-DB - An online database of 3DS and DS homebrew",
-        "url": "https://raw.githubusercontent.com/Max904/Max904_Injects/refs/heads/main/Max904Injects.unistore",
-        "file": "Max904Injects.unistore",
+        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "file": "universal-db-beta.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
         "bg_index": 1,
@@ -15,10 +15,10 @@
     "storeContent": [
         {
             "info": {
-                "title": "Sonic Battle",
-                "author": "THQ",
-                "description": "Sonic Battle is a 4 player isometric fighting game based on the Sonic Adventure era characters, differing heavily from Sonic the Fighters, the first Sonic fighting game. It had a single player story mode which received a great deal of praise from fans; not taking itself too seriously, while at the same time doing a lot to flesh out characters' personalities. ",
-                "category": ["GBA"],
+                "title": "Universal-Updater",
+                "author": "Universal-Team",
+                "description": "An easy to use app for installing and updating 3DS homebrew",
+                "category": ["utility"],
                 "console": ["3DS"],
                 "icon_index": 0,
                 "sheet_index": 0,
@@ -26,26 +26,56 @@
                 "license": "gpl-3.0",
                 "version": "v2.5.1"
             },
-            "Sonic Battle.cia": [
+            "Universal-Updater.3dsx": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
-                    "output": "sdmc:/Sonic Battle.cia"
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
+                }
+            ],
+            "Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "sdmc:/Sonic Battle.cia"
+                    "file": "/Universal-Updater.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Sonic Battle.cia"
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ],
+            "[nightly] Universal-Updater.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
+                    "message": "Downloading Universal-Updater.3dsx...",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
+                }
+            ],
+            "[nightly] Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
                 }
             ]
         },
         {
             "info": {
                 "title": "Mega Man 2",
-                "author": "Capcom",
+                "author": "Homebrew Dev",
                 "description": "A sample homebrew application for the 3DS",
                 "category": ["game"],
                 "console": ["3DS"],
@@ -59,7 +89,7 @@
                 {
                     "type": "downloadFile",
                     "file": "https://example.com/homebrew-app/Homebrew-App.3dsx",
-                    "output": "/3ds/Homebrew-App.3dsx"
+                    "output": "%3DSX%/Homebrew-App.3dsx"
                 }
             ],
             "Homebrew-App.cia": [
@@ -70,7 +100,7 @@
                 },
                 {
                     "type": "installCia",
-                    "file": "sdmc:/Homebrew-App.cia"
+                    "file": "/Homebrew-App.cia"
                 },
                 {
                     "type": "deleteFile",
