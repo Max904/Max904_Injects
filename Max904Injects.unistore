@@ -88,6 +88,18 @@
 			"description": "Drill Dozer description."
 		}
 	},
+	{
+		"Download LM2DLPAL": [{
+			"file": "https://github.com/LinUwUxCat/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
+			"message":"Downloading the app...",
+			"output": "sdmc:/LM2DLPAL.cia",
+			"type": "downloadFile"
+		},
+		{
+			"file": "/LM2DLPAL.cia",
+			"message": "Installing LM2DLPAL.cia...",
+			"type": "installCia"
+		},
 		{
 			"file": "sdmc:/LM2DLPAL.cia",
 		  	"message": "Deleting LM2DLPAL.cia.",
