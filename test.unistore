@@ -18,10 +18,13 @@
                 "title": "Sonic-Battle",
                 "author": "Universal-Team",
                 "description": "Sonic Battle is a GBA game where you can choose from eight Sonic characters and fight in different arenas. Customize your special attack and use various moves to defeat your opponents in this spin-off to the usual Sonic dashing games. ",
-                "category": ["gba"],
+                "category": ["utility"],
+                "console": ["3DS"],
                 "icon_index": 0,
                 "sheet_index": 0,
                 "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v2.5.1"
             },
             "Sonic-Battle-Usa": [
                 {
