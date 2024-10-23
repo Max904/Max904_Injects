@@ -25,7 +25,7 @@
             "Sonic Battle.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
                     "output": "sdmc:/Universal-Updater.cia"
                 },
                 {
