@@ -1,15 +1,15 @@
 {
     "storeInfo": {
-        "title": "Universal-DB",
-        "author": "Universal-Team",
-        "description": "Universal-DB - An online database of 3DS and DS homebrew",
-        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
-        "file": "universal-db-beta.unistore",
+        "title": "Max904yt Injects Collection",
+        "author": "Max904yt",
+        "description": "Retro games right on your home screen!",
+        "url": "https://raw.githubusercontent.com/Max904/Max904_Injects/refs/heads/main/Max904Injects.unistore",
+        "file": "Max904Injects.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 91,
+        "revision": 1,
         "version": 3
     },
     "storeContent": [
