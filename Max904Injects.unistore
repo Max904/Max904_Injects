@@ -63,24 +63,24 @@
 		}
 	},
 	{
-		"Mega Man 2.cia": [
+		"Drill Dozer.cia": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
-                    "output": "sdmc:/Mega Man 2.cia"
+                    "output": "sdmc:/Drill Dozer.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Mega Man 2.cia"
+                    "file": "/Drill Dozer.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Mega Man 2.cia"
+                    "file": "sdmc:/Drill Dozer.cia"
   		}],
 		"info": {
-			"title": "Mega Man 2",
-			"author": "Capcom",
-			"category": ["NES"],
+			"title": "Drill Dozer",
+			"author": "Nintendo",
+			"category": ["GBA"],
 			"console": ["3DS"],
 			"version": "1",
 			"icon_index":0,
