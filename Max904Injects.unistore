@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":4,
+		"revision":5,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -34,6 +34,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Sonic Battle Description."
+		}
+	},
+	{
+		"Mega Man 2.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
+                    "output": "sdmc:/Mega Man 2.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Mega Man 2.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Mega Man 2.cia"
+  		}],
+		"info": {
+			"title": "Mega Man 2",
+			"author": "Capcom",
+			"category": ["NES"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Mega Man 2 description."
 		}
 	},
 	{
