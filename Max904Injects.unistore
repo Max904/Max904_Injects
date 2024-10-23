@@ -2,7 +2,7 @@
 	"storeInfo": {
 		"url": "https://raw.githubusercontent.com/Max904/Max904_Injects/refs/heads/main/Max904Injects.unistore",
 		"file": "Max904Injects.unistore",
-		"title": "LinuxCat's Store",
+		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
 		"revision":1,
@@ -11,35 +11,28 @@
 		"version": 3
 	},
 	"storeContent": [{
-		"Download Celeste Classic GBA": [{
-			"type": "downloadFile",
-			"file": "https://github.com/JeffRuLz/Celeste-Classic-GBA/releases/download/v1.0/Celeste.Classic.GBA.v1.0.zip",
-			"output": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
-			"message": "Downloading the Celeste GBA release..."
-		}, {
-			"type": "extractFile",
-			"file": "/Celeste.Classic.GBA.v1.0.zip",
-			"input": "",
-			"output": "/roms/gba/",
-			"message": "Extracting from the zip..."
-		}, {
-			"type": "deleteFile",
-			"file": "sdmc:/Celeste.Classic.GBA.v1.0.zip",
-			"message": "Deleting zip file..."
-		}, {
-			"type": "deleteFile",
-			"file": "sdmc:/roms/gba/readme.txt",
-			"message": "Deleting readme file..."
+		"Sonic Battle.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
+                    "output": "sdmc:/Sonic Battle.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Sonic Battle.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Sonic Battle.cia"
   		}],
 		"info": {
-			"title": "Celeste Classic GBA",
-			"version": "1.0",
-			"author": "JeffRuLz",
-			"category": ["game"],
-			"console": ["GBA"],
+			"title": "Sonic Battle",
+			"author": "THQ",
+			"category": ["GBA"],
+			"console": ["3DS"],
 			"icon_index":0,
 			"license": "",
-			"description": "Celeste Classic ported to the Game boy Advance. Will download a .gba file in sdmc:/roms/gba/"
+			"description": "Sonic Battle is a 4 player isometric fighting game based on the Sonic Adventure era characters, differing heavily from Sonic the Fighters, the first Sonic fighting game. It had a single player story mode which received a great deal of praise from fans; not taking itself too seriously, while at the same time doing a lot to flesh out characters' personalities."
 		}
 	},
 	{
