@@ -25,16 +25,16 @@
             "Sonic Battle.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
-                    "output": "sdmc:/Universal-Updater.cia"
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Sonic%20Battle/Sonic%20Battle.cia",
+                    "output": "sdmc:/Sonic Battle.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Universal-Updater.cia"
+                    "file": "/Sonic Battle.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Universal-Updater.cia"
+                    "file": "sdmc:/Sonic Battle.cia"
                 }
             ]
         },
@@ -43,23 +43,23 @@
                 "title": "Mega Man 2",
                 "author": "Capcom",
                 "description": "Classic kart racing action!",
-                "category": ["GBA"],
+                "category": ["NES"],
                 "icon_index": 1,
                 "sheet_index": 1,
             },
             "Meega man 2.cia": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Mario%20Kart%20Super%20Circuit/Mario%20Kart%20Super%20Circuit.cia",
-                    "output": "sdmc:/Universal-Updater.cia"
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Mega%20Man%202/Mega%20Man%202.cia",
+                    "output": "sdmc:/Mega Man 2.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Universal-Updater.cia"
+                    "file": "/Mega Man 2.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Universal-Updater.cia"
+                    "file": "sdmc:/Mega Man 2.cia"
                 }
             ]
         }
