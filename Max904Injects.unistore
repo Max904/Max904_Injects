@@ -17,14 +17,10 @@
             "info": {
                 "title": "Sonic Battle",
                 "author": "Universal-Team",
-                "description": "An easy to use app for installing and updating 3DS homebrew",
-                "category": ["utility"],
-                "console": ["3DS"],
+                "description": "Sonic Battle is a 4 player isometric fighting game based on the Sonic Adventure era characters, differing heavily from Sonic the Fighters, the first Sonic fighting game. It had a single player story mode which received a great deal of praise from fans; not taking itself too seriously, while at the same time doing a lot to flesh out characters' personalities.",
+                "category": ["GBA"],
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "2020-07-02 at 14:03 (UTC)",
-                "license": "gpl-3.0",
-                "version": "v2.5.1"
             },
             "Sonic Battle.cia": [
                 {
