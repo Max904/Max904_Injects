@@ -1,8 +1,8 @@
 {
     "storeInfo": {
-        "title": "Max's-Injects",
+        "title": "Max's Injects",
         "author": "Max904yt",
-        "description": "A database for injects and homescreen retro games",
+        "description": "A database for injects and retro games in your homescreen",
         "url": "https://raw.githubusercontent.com/Max904/Maxtesting/refs/heads/main/test.unistore",
         "file": "test.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
