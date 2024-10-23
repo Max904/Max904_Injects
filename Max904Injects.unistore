@@ -89,7 +89,7 @@
 		}
 	},
 	{
-		"Drill Dozer.cia": [
+		"Sonic Advance 3": [
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Drill%20Dozer/Drill%20Dozer.cia",
@@ -97,21 +97,21 @@
                 },
                 {
                     "type": "installCia",
-                    "file": "/Drill Dozer.cia"
+                    "file": "/Sonic Advance 3.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Drill Dozer.cia"
+                    "file": "sdmc:/Sonic Advance 3.cia"
   		}],
 		"info": {
-			"title": "Drill Dozer",
-			"author": "Nintendo",
+			"title": "Sonic Advance 3",
+			"author": "THQ",
 			"category": ["GBA"],
 			"console": ["3DS"],
 			"version": "1",
 			"icon_index":0,
 			"license": "",
-			"description": "Drill Dozer description."
+			"description": "Sonic Advance 3 description."
 		}
 	},
 	{
