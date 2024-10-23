@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":9,
+		"revision":10,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -112,6 +112,24 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Drill Dozer description."
+		}
+	},
+	{
+		"Download GBAButtonTest 1.0": [{
+			"file": "https://github.com/LinUwUxCat/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
+			"message":"Downloading GBAButtonTest...",
+			"output": "sdmc:/roms/gba/ButtonTest.gba",
+			"type": "downloadFile"
+		}],
+		"info": {
+			"title": "GBAButtonTest",
+			"version": "1.0",
+			"author": "LinuxCat",
+			"category": ["utility"],
+			"console": ["GBA"],
+			"icon_index":2,
+			"license": "",
+			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
 		}
 	},
 	{
