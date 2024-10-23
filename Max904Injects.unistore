@@ -41,6 +41,42 @@
                     "file": "sdmc:/Sonic Battle.cia"
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "Homebrew App Example",
+                "author": "Homebrew Dev",
+                "description": "A sample homebrew application for the 3DS",
+                "category": ["game"],
+                "console": ["3DS"],
+                "icon_index": 1,
+                "sheet_index": 1,
+                "last_updated": "2024-10-22 at 10:00 (UTC)",
+                "license": "mit",
+                "version": "v1.0.0"
+            },
+            "Homebrew-App.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://example.com/homebrew-app/Homebrew-App.3dsx",
+                    "output": "%3DSX%/Homebrew-App.3dsx"
+                }
+            ],
+            "Homebrew-App.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://example.com/homebrew-app/Homebrew-App.cia",
+                    "output": "sdmc:/Homebrew-App.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Homebrew-App.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Homebrew-App.cia"
+                }
+            ]
         }
     ]
 }
