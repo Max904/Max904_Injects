@@ -37,6 +37,35 @@
                     "file": "sdmc:/Universal-Updater.cia"
                 }
             ]
+        },
+        {
+            "info": {
+                "title": "Mario Kart Super Circuit",
+                "author": "Universal-Team",
+                "description": "Classic kart racing action!",
+                "category": ["game"],
+                "console": ["GBA"],
+                "icon_index": 1,
+                "sheet_index": 1,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v1.0.0"
+            },
+            "Mario Kart Super Circuit.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Mario%20Kart%20Super%20Circuit/Mario%20Kart%20Super%20Circuit.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ]
         }
     ]
 }
