@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 2,
+		"revision": 3,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -242,6 +242,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Advance Wars description."
+		}
+	},
+	{
+		"Advance Wars 2: Black Hole Rising": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Advance%20Wars%202%20Black%20Hole%20Rising/Advance%20Wars%202%20Black%20Hole%20Rising.ciaa",
+                    "output": "sdmc:/Advance Wars 2 Black Hole Rising.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Advance Wars 2 Black Hole Rising.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Advance Wars 2 Black Hole Rising.cia"
+  		}],
+		"info": {
+			"title": "Advance Wars 2: Black Hole Rising",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Advance Wars 2: Black Hole Rising description."
 		}
 	},
 	{
