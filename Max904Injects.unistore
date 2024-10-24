@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":19,
+		"revision": 20,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -210,12 +210,38 @@
 		"info": {
 			"title": "Wario Land 4",
 			"author": "Nintendo",
-			"category": ["NES"],
-			"console": ["GBA"],
+			"category": ["GBA"],
+			"console": ["3DS"],
 			"version": "1",
 			"icon_index":0,
 			"license": "",
 			"description": "Wario Land 4 description."
+		}
+	},
+	{
+		"Advance Wars": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Advance%20Wars/Advance%20Wars.cia",
+                    "output": "sdmc:/Advance Wars.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Advance Wars.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Advance Wars.cia"
+  		}],
+		"info": {
+			"title": "Advance Wars",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Advance Wars description."
 		}
 	},
 	{
