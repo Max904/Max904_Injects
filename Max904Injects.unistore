@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision":18,
+		"revision":19,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -190,6 +190,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Super Mario Bros description."
+		}
+	},
+	{
+		"Wario Land 4": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Wario%20Land%204/Wario%20Land%204.cia",
+                    "output": "sdmc:/Wario Land 4.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Wario Land 4.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Wario Land 4.cia"
+  		}],
+		"info": {
+			"title": "Wario Land 4",
+			"author": "Nintendo",
+			"category": ["NES"],
+			"console": ["GBA"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Wario Land 4 description."
 		}
 	},
 	{
