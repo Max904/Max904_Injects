@@ -245,21 +245,29 @@
 		}
 	},
 	{
-		"Download GBAButtonTest 1.0": [{
-			"file": "https://github.com/LinUwUxCat/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
-			"message":"Downloading GBAButtonTest...",
-			"output": "sdmc:/roms/gba/ButtonTest.gba",
-			"type": "downloadFile"
-		}],
+		"Advance Wars": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Advance%20Wars/Advance%20Wars.cia",
+                    "output": "sdmc:/Advance Wars.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Advance Wars.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Advance Wars.cia"
+  		}],
 		"info": {
-			"title": "GBAButtonTest",
-			"version": "1.0",
-			"author": "LinuxCat",
-			"category": ["utility"],
-			"console": ["GBA"],
-			"icon_index":2,
+			"title": "Advance Wars",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
 			"license": "",
-			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
+			"description": "Advance Wars description."
 		}
 	},
 	{
