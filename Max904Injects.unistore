@@ -245,29 +245,55 @@
 		}
 	},
 	{
-		"Advance Wars": [
+		"Golden Sun": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Advance%20Wars/Advance%20Wars.cia",
-                    "output": "sdmc:/Advance Wars.cia"
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Golden%20Sun/Golden%20Sun.cia",
+                    "output": "sdmc:/Golden Sun.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Advance Wars.cia"
+                    "file": "/Golden Sun.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Advance Wars.cia"
+                    "file": "sdmc:/Golden Sun.cia"
   		}],
 		"info": {
-			"title": "Advance Wars",
+			"title": "Golden Sun",
 			"author": "Nintendo",
 			"category": ["GBA"],
 			"console": ["3DS"],
 			"version": "1",
 			"icon_index":0,
 			"license": "",
-			"description": "Advance Wars description."
+			"description": "Golden Sun description."
+		}
+	},
+	{
+		"Golden Sun The Lost Age": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Golden%20Sun%20The%20Lost%20Age/Golden%20Sun%20The%20Lost%20Age.cia",
+                    "output": "sdmc:/Golden Sun The Lost Age.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Golden Sun The Lost Age.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Golden Sun The Lost Age.cia"
+  		}],
+		"info": {
+			"title": "Golden Sun: The Lost Agen",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Golden Sun The Lost Age description."
 		}
 	},
 	{
