@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">The collection is back and better than ever! check out our unistore for one click installation.</p>
+<p align="left">The collection is back and better than ever! check out the unistore for one click installation.</p>
 
 ###
 
