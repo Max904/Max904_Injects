@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 5,
+		"revision": 6,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -216,6 +216,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Wario Land 4 description."
+		}
+	},
+	{
+		"Data Man": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Nintendo%20Entertainment%20System/Data%20Man/Data%20Man.cia",
+                    "output": "sdmc:/Data Man.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Data Man.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Data Man.cia"
+  		}],
+		"info": {
+			"title": "Data Man",
+			"author": "Darkbits",
+			"category": ["NES"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Data Man description."
 		}
 	},
 	{
