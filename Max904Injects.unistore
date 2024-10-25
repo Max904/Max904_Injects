@@ -297,6 +297,32 @@
 		}
 	},
 	{
+		"Pokémon Unbound": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pok%C3%A9mon%20Unbound/Pok%C3%A9mon%20Unbound.cia",
+                    "output": "sdmc:/Pokémon Unbound.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Pokémon Unbound.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Pokémon Unbound.cia"
+  		}],
+		"info": {
+			"title": "Pokémon Unbound",
+			"author": "Skeli",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "2.1.1.1",
+			"icon_index":0,
+			"license": "",
+			"description": "Pokémon Unbound description."
+		}
+	},
+	{
 		"Golden Sun": [
                 {
                     "type": "downloadFile",
