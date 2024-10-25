@@ -1,4 +1,4 @@
-<h1 align="left">Max904 3DS Injects Collection</h1>
+<h1 align="left">Max904 3DS Inject Collection</h1>
 
 ###
 
