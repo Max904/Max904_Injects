@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 8,
+		"revision": 9,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -300,7 +300,7 @@
 		"Pokémon Unbound": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pok%C3%A9mon%20Unbound/Pok%C3%A9mon%20Unbound.cia",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pokemon%20Unbound/Pokemon%20Unbound.cia",
                     "output": "sdmc:/Pokemon Unbound.cia"
                 },
                 {
