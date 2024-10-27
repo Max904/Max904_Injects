@@ -301,15 +301,15 @@
                 {
                     "type": "downloadFile",
                     "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pok%C3%A9mon%20Unbound/Pok%C3%A9mon%20Unbound.cia",
-                    "output": "sdmc:/Pokémon Unbound.cia"
+                    "output": "sdmc:/Pokemon Unbound.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Pokémon Unbound.cia"
+                    "file": "/Pokemon Unbound.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Pokémon Unbound.cia"
+                    "file": "sdmc:/Pokemon Unbound.cia"
   		}],
 		"info": {
 			"title": "Pokémon Unbound",
