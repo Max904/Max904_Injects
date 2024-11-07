@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 9,
+		"revision": 10,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -372,6 +372,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Golden Sun The Lost Age description."
+		}
+	},
+	{
+		"Metroid Fusion": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Golden%20Sun%20The%20Lost%20Age/Golden%20Sun%20The%20Lost%20Age.cia",
+                    "output": "sdmc:/Metroid Fusion.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Metroid Fusion.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Metroid Fusion.cia"
+  		}],
+		"info": {
+			"title": "Metroid Fusion",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Metroid Fusion description."
 		}
 	},
 	{
