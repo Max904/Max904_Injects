@@ -401,6 +401,32 @@
 		}
 	},
 	{
+		"Metroid: Zero Mission": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Metroid%20Fusion/Metroid%20Fusion.cia",
+                    "output": "sdmc:/Metroid Zero Mission.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Metroid Zero Mission.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Metroid Zero Mission.cia"
+  		}],
+		"info": {
+			"title": "Metroid Zero Mission",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Metroid Zero Mission description."
+		}
+	},
+	{
 		"Download LM2DLPAL": [{
 			"file": "https://github.com/LinUwUxCat/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
 			"message":"Downloading the app...",
