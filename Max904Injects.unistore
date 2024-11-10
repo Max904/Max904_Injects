@@ -430,26 +430,27 @@
 		"Pokémon Clover": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Metroid%20Zero%20Mission/Metroid%20Zero%20Mission.cia",
-                    "output": "sdmc:/Metroid Zero Mission.cia"
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pokemon%20Clover/Pokemon%20Clover.cia",
+                    "output": "sdmc:/Pokemon Clover.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Metroid Zero Mission.cia"
+                    "file": "/Pokemon Clover.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Metroid Zero Mission.cia"
+                    "file": "sdmc:/Pokemon Clover.cia"
   		}],
 		"info": {
-			"title": "Metroid Zero Mission",
-			"author": "Nintendo",
+			"title": "Pokémon Clover",
+			"author": "Squeetz & Co",
 			"category": ["GBA"],
 			"console": ["3DS"],
 			"version": "1",
 			"icon_index":0,
 			"license": "",
-			"description": "Metroid Zero Mission description."
+			"description": "Started in late 2014 as a janky rehash of Pokémon Fire Red, Pokémon Clover has since evolved into a complete overhaul with all-new characters, story, maps, music and gameplay mechanics.
+The main point of Clover is to be both a parody of 4chan’s imageboard culture as well as a parody of Pokémon as a whole. It thus contains themes and language not suited for the faint of heart"
 		}
 	},
 	{
