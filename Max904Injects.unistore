@@ -427,29 +427,29 @@
 		}
 	},
 	{
-		"Pokémon Clover": [
+		"Pokémon Unbound": [
                 {
                     "type": "downloadFile",
-                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Metroid%20Zero%20Mission/Metroid%20Zero%20Mission.cia",
-                    "output": "sdmc:/Metroid Zero Mission.cia"
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pokemon%20Unbound/Pokemon%20Unbound.cia",
+                    "output": "sdmc:/Pokemon Unbound.cia"
                 },
                 {
                     "type": "installCia",
-                    "file": "/Metroid Zero Mission.cia"
+                    "file": "/Pokemon Unbound.cia"
                 },
                 {
                     "type": "deleteFile",
-                    "file": "sdmc:/Metroid Zero Mission.cia"
+                    "file": "sdmc:/Pokemon Unbound.cia"
   		}],
 		"info": {
-			"title": "Metroid Zero Mission",
-			"author": "Nintendo",
+			"title": "Pokémon Unbound",
+			"author": "Skeli",
 			"category": ["GBA"],
 			"console": ["3DS"],
-			"version": "1",
+			"version": "2.1.1.1",
 			"icon_index":0,
 			"license": "",
-			"description": "Metroid Zero Mission description."
+			"description": "Pokémon Unbound description."
 		}
 	},
 	{
