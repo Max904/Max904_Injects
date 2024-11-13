@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 16,
+		"revision": 17,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -528,6 +528,32 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Pac-Man Collection description."
+		}
+	},
+	{
+		"Rhythm Tengoku": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Rhythm%20Tengoku/Rhythm%20Tengoku.cia",
+                    "output": "sdmc:/Rhythm Tengoku.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Rhythm Tengoku.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Rhythm Tengoku.cia"
+  		}],
+		"info": {
+			"title": "Rhythm Tengoku",
+			"author": "Nintendo",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Rhythm Tengoku description."
 		}
 	},
 	{
