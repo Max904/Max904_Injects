@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="left">Retro games in your home screen!</h4>
+<h3 align="left">Retro games in your home screen!</h3>
 
 ###
 
@@ -11,7 +11,11 @@
 ###
 
 <div align="left">
-  <img height="287" src="https://raw.githubusercontent.com/Max904/Max904_Injects/refs/heads/main/QR.png"  />
+  <img height="500" src="https://raw.githubusercontent.com/Max904/Max904_Injects/refs/heads/main/QR.png"  />
 </div>
+
+###
+
+<p align="left">A game you want isn't in the collection? Open a GitHub issue to get it added!</p>
 
 ###
