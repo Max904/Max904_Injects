@@ -5,7 +5,7 @@
 		"title": "Max904yt Injects Collection",
 		"author": "Max904yt",
 		"description": "Retro games right on your home screen!",
-		"revision": 15,
+		"revision": 16,
 		"sheet": "linuxcat-store.t3x",
 		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
 		"version": 3
@@ -476,6 +476,58 @@
 			"icon_index":0,
 			"license": "",
 			"description": "Fire Emblem: The Sacred Stones description."
+		}
+	},
+	{
+		"Namco Museum: 50th Anniversary": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Namco%20Museum%2050th%20Anniversary/Namco%20Museum%2050th%20Anniversary.cia",
+                    "output": "sdmc:/Namco Museum 50th Anniversary.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Namco Museum 50th Anniversary.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Namco Museum 50th Anniversary.cia"
+  		}],
+		"info": {
+			"title": "Namco Museum: 50th Anniversary",
+			"author": "Namco",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Namco Museum: 50th Anniversary description."
+		}
+	},
+	{
+		"Pac-Man Collection": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Max904/Max904_Injects/raw/refs/heads/main/Gameboy%20Advance/Pac-Man%20Collection/Pac-Man%20Collection.cia",
+                    "output": "sdmc:/Pac-Man Collection.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Pac-Man Collection.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Pac-Man Collection.cia"
+  		}],
+		"info": {
+			"title": "Pac-Man Collection",
+			"author": "Namco",
+			"category": ["GBA"],
+			"console": ["3DS"],
+			"version": "1",
+			"icon_index":0,
+			"license": "",
+			"description": "Pac-Man Collection description."
 		}
 	},
 	{
